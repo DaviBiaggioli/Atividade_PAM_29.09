@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/image"
+    >
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:paddingLeft="10sp"
+        android:hint="User name"
+        android:background="@drawable/fundo"
+        android:textColorHint="#FFFFFF"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fundo"
+        android:hint="Password"
+        android:paddingLeft="10sp"
+        android:textColorHint="#FFFFFF" />
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <Button
+          android:layout_marginBottom="10dp"
+          android:layout_marginTop="10sp"
+          android:layout_width="17dp"
+          android:layout_height="20dp"
+          android:textColor="#FFFFFF"
+          android:text="Remember password" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Rembember password"
+          android:textColor="#FFFFFF"
+          />
+
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:text="Sign in"
+        android:background="@drawable/bordinha"
+        android:textColor="#FFFFFF"
+        />
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget password?"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0003DAC5" android:layout_marginLeft="110sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Don't you have account?"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Sing up"></TextView>
+
+</LinearLayout>
