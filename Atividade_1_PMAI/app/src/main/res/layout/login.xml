@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+
+    tools:context=".MainActivity">
+
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="Sing in"
+
+
+
+        android:layout_marginTop="25sp"
+
+        android:layout_marginLeft="20dp"
+
+        android:textColorHint="#f40003"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="25sp"
+        android:textAppearance="bold"
+
+
+
+        android:background="@null"
+
+
+        />
+
+
+    <EditText
+
+        android:layout_width="243dp"
+        android:layout_height="34dp"
+
+        android:layout_gravity="center"
+
+        android:layout_marginTop="77sp"
+
+        android:background="@drawable/botaodeescrita"
+
+        android:fontFamily="sans-serif-medium"
+
+        android:hint="Email or phone number"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="28dp"
+        android:textAppearance="bold"
+
+
+        android:textColorHint="#818181"
+
+        android:textSize="15sp"
+
+
+        />
+
+
+    <EditText
+
+        android:layout_width="243dp"
+        android:layout_height="34dp"
+
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20sp"
+
+        android:background="@drawable/botaodeescrita"
+
+        android:fontFamily="sans-serif-medium"
+
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="28dp"
+        android:textAppearance="bold"
+
+
+        android:textColorHint="#818181"
+
+        android:textSize="13sp"
+
+
+        />
+
+
+
+
+
+
+
+
+    <Button
+
+
+        android:layout_width="219dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+
+        android:background="@drawable/botaoredondo"
+        android:hint="Log in"
+        android:paddingLeft="50dp"
+
+        android:paddingRight="50dp"
+
+        android:textColorHint="@color/white"
+
+
+        />
+
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+
+        android:layout_gravity="center"
+
+        android:layout_marginTop="25sp"
+
+
+        android:background="@null"
+
+        android:fontFamily="sans-serif-medium"
+
+        android:hint="OR"
+        android:textAppearance="bold"
+
+
+        android:textColorHint="@color/black"
+
+        android:textSize="12sp"
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+    <Button
+
+        android:layout_width="212dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+
+
+        android:background="@drawable/botaoazulfb"
+
+        android:hint="Login with Facebook"
+
+        android:textColorHint="@color/white"
+
+
+        />
+
+
+</LinearLayout>
+
+
+
+
